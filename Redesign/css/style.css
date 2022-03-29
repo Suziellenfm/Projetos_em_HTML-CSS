@@ -1,0 +1,225 @@
+body {
+    position: relative;
+    width: 700px;
+    height: 600px;
+    background: #E5E5E5;
+        
+}
+
+.fotos {
+    position: absolute;
+    width: 340px;
+    height: 520px;
+    left: 400px;
+    top: 10px;
+}
+
+.img1 {
+    position: absolute;
+    width: 340px;
+    height: 380px;
+    left: 20px;
+    top: 10px;
+    border-radius: 4px;
+}
+
+.img2 {
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    left: 30px;
+    top: 410px;
+    border-radius: 4px;
+}
+
+.img3 {
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    left: 140px;
+    top: 410px;
+    border-radius: 4px;
+}
+
+.img4 {
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    left: 250px;
+    top: 410px;
+    border-radius: 4px;
+}
+
+.descricao {
+    position: absolute;
+    width: 217px;
+    height: 208px;
+    left: 400px;
+    top: 10px;
+    
+}
+
+.preco {
+    position: absolute;
+    width: 47px;
+    height: 21px;
+    left: 421px;
+    top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2493F8;
+}
+
+.texto1 {
+    position: absolute;
+    width: 176px;
+    height: 21px;
+    left: 420px;
+    top: 56px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: #384047;
+}
+
+.texto2 {
+    position: absolute;
+    width: 216px;
+    height: 63px;
+    left: 421px;
+    top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #67737E;
+
+}
+
+.descricao a {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: 420px;
+    top: 200px;
+    background: #2493F8;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.descricao .vetor {
+    position: absolute;
+    left: 80%;
+    right: 13.94%;
+    top: 20%;
+    bottom: 8.33%;
+}
+
+.descricao .adicionar {
+    position: static;
+    width: 100px;
+    height: 15px;
+    left: 20px;
+    top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500px;
+    color: #004391;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sustentabilidade {
+    position: absolute;
+    width: 218px;
+    height: 107px;
+    left: 420px;
+    top: 270px;
+}
+
+.texto3 {
+    position: absolute;
+    width: 139px;
+    height: 16px;
+    left: 420px;
+    top: 0.2px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.informacoes {
+    position: absolute;
+    width: 200px;
+    height: 68px;
+    left: 385px;
+    top: 20px;
+    
+}
+
+.itens {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    
+}
+
+.entrega {
+    position: absolute;
+    width: 218px;
+    height: 107px;
+    left: 420px;
+    top: 270px;
+}
+
+.texto4 {
+    position: absolute;
+    width: 66px;
+    height: 16px;
+    left: 424px;
+    top: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.itens1 {
+    font-size: 16px;
+    position: absolute;
+    width: 200px;
+    height: 68px;
+    left: 385px;
+    top: 120px;
+}
+
+li {
+    list-style: none;
+}
+
+h1, h2, h3, p, ul, li {
+    font-family: 'Times New Roman', Times, serif;
+}
+
